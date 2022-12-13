@@ -1,0 +1,114 @@
+/* _content/ArgentumSite/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-ai6hfyyes1] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #ffffff;
+}
+
+a[b-ai6hfyyes1] {
+  color: #0077cc;
+}
+
+.btn-primary[b-ai6hfyyes1] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ai6hfyyes1], .nav-pills .show > .nav-link[b-ai6hfyyes1] {
+  border-color: #1861ac;
+}
+
+.navbar-color[b-ai6hfyyes1] {
+    background-color: #272727;
+    color: #272727;
+}
+
+.border-top[b-ai6hfyyes1] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ai6hfyyes1] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ai6hfyyes1] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ai6hfyyes1] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ai6hfyyes1] {
+    background-color: #272727;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+
+.form-class[b-ai6hfyyes1] {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input.input-btn[b-ai6hfyyes1] {
+    background: transparent;
+}
+
+.btn-search.input-btn[b-ai6hfyyes1] {
+    background: transparent;
+}
+
+.input[b-ai6hfyyes1] {
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    background-color: #939393;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.btn-search[b-ai6hfyyes1] {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.btn-search[b-ai6hfyyes1]:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #939393;
+}
+
+.menu-icon[b-ai6hfyyes1] {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.menu-icon[b-ai6hfyyes1]:before {
+    content: "\f141";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #939393;
+}
+
+
