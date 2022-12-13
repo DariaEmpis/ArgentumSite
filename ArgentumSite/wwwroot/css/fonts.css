@@ -1,0 +1,5 @@
+﻿@font-face {
+    font-family: ImprintMTShadow; /* Гарнитура шрифта */
+    src: url(../fonts/ImprintMTShadow.eot);
+    src: local(ImprintMTShadow), url(../fonts/ImprintMTShadow.ttf); /* Путь к файлу со шрифтом */
+}
