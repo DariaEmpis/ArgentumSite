@@ -1,0 +1,53 @@
+﻿@using ArgentumSite.Models
+@model List<GoodCard>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Главная";
+}
+
+<div class="text-center">
+    <h1 style="margin-bottom: 50px">Новые поступления</h1>
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-md-4 row-cols-xl-4 row-cols-xxl-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card" style="border-radius: 40px; background-color:#272727; color:#fff">
+                    <img src="@item.ImageUrl" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Description</p>
+                        <a href="#" class="btn btn-primary">@item.Price</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="row row-cols-2 mb-3" style="background-color:#272727; color: #fff; margin-top: 50px; width:100%; padding: 50px">
+        <div class="col">
+            <h2>Контакты</h2>
+            <p class="text-break">Телефон : +8(999)-999-99-99</p>
+            <p class="text-break">Адрес : Здесь</p>
+            <p class="text-break">e-mail: info@ArgentumSite.com</p>
+        </div>
+        <div class="col">
+            <h2>Социальные сети</h2>
+            <p class="text-break">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper ...</p>
+            <div class="row row-cols-3">
+                <div class="col"> <a href="#"><img src="/img/Social/tg.png" alt="..."></a></div>
+                <div class="col"> <a href="#"><img src="/img/Social/vk.png" alt="..."></a></div>
+                <div class="col"> <a href="#"><img src="/img/Social/yt.png" alt="..."></a></div>
+            </div>        
+        </div>
+    </div>
+
+    <div class="mb-3" style="padding: 50px">
+        <h2>О нас </h2>
+        <p style="text-align:center">Мы молодая компания, вдохновленная современными людьми, 
+            которые объединены тягой к свободе, приключениям, а главное – любовью к стильным украшениям 
+            и аксессуарам. Мы считаем, что красивые часы и аксессуары не должны стоить вам целого состояния. 
+            Мы сотрудничаем с брендами с разных уголков планеты, отбирая самое лучшее и интересное, 
+            что понравится нам и точно вам.
+        </p>
+    </div>
+</div>

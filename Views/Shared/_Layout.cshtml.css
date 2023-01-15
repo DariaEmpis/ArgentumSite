@@ -1,0 +1,113 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #ffffff;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  border-color: #1861ac;
+}
+
+.navbar-color {
+    background-color: #272727;
+    color: #272727;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+    background-color: #272727;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+
+.form-class {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input.input-btn {
+    background: transparent;
+}
+
+.btn-search.input-btn {
+    background: transparent;
+}
+
+.input {
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    background-color: #939393;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.btn-search {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.btn-search:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #939393;
+}
+
+.menu-icon {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.menu-icon:before {
+    content: "\f141";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #939393;
+}
+
+

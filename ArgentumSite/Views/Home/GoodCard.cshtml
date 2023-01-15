@@ -1,0 +1,47 @@
+﻿@using ArgentumSite.Models
+@model GoodCard
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="row row-cols-md-2 row-cols-sm-1 row-cols-lg-2 row-cols-xl-2 row-cols">
+    <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3 justify-content-center" style="background-color:#272727; height: auto">
+        <img src="../../@Model.ImageUrl" class="rounded mx-auto d-block img-fluid" style="max-width: 100%; height: auto; aspect-ratio: 1; border:solid; margin: 15px">
+    </div>
+    <div class="col-md-9 col-sm-12 col-lg-9 col-xl-9">
+        <div>
+            <div class="list-inline row">
+                <h1 class="list-inline-item">@Model.Name</h1>
+                <small class="list-inline-item align-content-end">@Model.IdNumber</small>
+            </div>
+            <div>
+                <h3><b>@Model.Price р.</b></h3>
+            </div>
+            <button class="btn btn-dark">Добавить в корзину</button>
+            @if (Model.Size != null && Model.Size.Any())
+            {
+                <h3 style='margin-top: 10px'>Размеры: </h3>
+                <div>
+                    @foreach (var item in Model.Size)
+                    {
+                        <span class="badge bg-dark">@item.Value</span>
+                    }
+                </div>
+            }
+            <div>
+                <h3>Описание: </h3>
+                <p> @Model.Description</p>
+            </div>
+            <div>
+                <h2>Материал: </h2>
+                <span>@Model.Material</span>
+            </div>
+            <div>
+                <h2>Страна-изготовитель: </h2>
+                <span>@Model.Country</span>
+            </div>
+        </div>
+    </div>
+</div>
